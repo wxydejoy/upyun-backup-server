@@ -53,7 +53,7 @@ class Myupy(UpYun):
     dirlist = ['']
     conn = sqlite3.connect('file.db')
     cur = conn.cursor()
-    
+ #
 
     def list_all(self, now_dir="/"):
         if 'upyun_storage_log' in now_dir:
