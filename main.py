@@ -56,7 +56,7 @@ class Myupy(UpYun):
     download_now = [] # 刚下的
 
 
-    def list_all(self, now_dir="/page/"):
+    def list_all(self, now_dir="/"):
         if 'upyun_storage_log' in now_dir:
             return
         for i in self.getlist(now_dir):
